@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+body {
+    background-color: #9d727281;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./pics/image.png);
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-position: top; /* Centers the image */
+    background-repeat:no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+
+    
+    
+}
+
+header {
+    background-color: #814747ab;
+    color: #a65e5ebe;
+    padding: 10px 0;
+
+}
+.brand-logo {
+    max-width: 150px;
+    margin:0;
+    display:inline-flex;
+    padding: 0;
+    
+}
+.content {
+    text-align: center;
+    padding:5px;
+    margin: 2px;
+    border: 4px solid white;
+    box-sizing: border-box;
+    width:fit-content;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.product {
+    background: #c6adadb0;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+.product img {
+    max-width: 100%;
+    border-bottom: 1px solid #d2a2a2;
+    margin-bottom: 15px;
+}
+.product h2 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+.product p {
+    font-size: 14px;
+    color: #000000;
+}
+.contact-form {
+    background: #8045456d;
+    border: 1px solid #a97676;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(160, 63, 63, 0.612);
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+}
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contact-form textarea {
+    height: 100px;
+}
+.contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
+}
+/* General Reset */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 40px;
+  }
+  
+  /* Navbar Container */
+  .navbar {
+    background-color: #4d313157; /* Dark background color */
+    overflow: hidden;
+    height: 40vh;
+  }
+  
+  /* Navbar List */
+  .nav-list {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
+    align-items: center; /* Center the items vertically */
+  }
+  
+  /* Navbar Items */
+  .nav-item {
+    margin: 0 15px; /* Space between items */
+  }
+  
+  /* Navbar Links */
+  .nav-item a {
+    display: block;
+    padding: 14px 20px; /* Padding for clickable area */
+    color: white; /* White text color */
+    font-size: 18px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  /* Navbar Links - Hover Effect */
+  .nav-item a:hover {
+    background-color: #483535c8; /
+  }
+  
+  /* Navbar Links - Active/Current Page */
+  .nav-item a.active {
+    background-color: #76493587; /* Different background color for the active link */
+  }
+  #logo{
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50px;
+  }
+  .text{
+    background-color: #3e080849;
+    color: #0f0101;
+    padding:20px;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-weight: bolder;
+     border-radius: 30px;
+    border:4px solid  rgb(219, 181, 181);
+    width: 80vw;
+    height: 22vh;
+    text-align: center;
+    justify-content: center;
+
+  }
+  
+
+    
+
+
+
